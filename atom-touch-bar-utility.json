@@ -1,0 +1,41 @@
+[
+  {
+    "type": "spacer"
+  },
+  {
+    "type": "button",
+    "label": "//",
+    "clickDispatchAction": "editor:toggle-line-comments",
+    "backgroundColor": "#444"
+  },
+  {
+    "type": "button",
+    "label": "🔎",
+    "clickDispatchAction": "markdown-preview:toggle",
+    "backgroundColor": "#444"
+  },
+  {
+    "type": "spacer"
+  },
+  {
+    "type": "button",
+    "label": "🎁",
+    "clickDispatchAction": "atom-beautify:beautify-editor",
+    "backgroundColor": "#444"
+  },
+  {
+    "type": "spacer"
+  },
+  {
+    "type": "button",
+    "label": "☰",
+    "clickDispatchAction": "tree-view:toggle",
+    "backgroundColor": "#444"
+  },
+  {
+    "type": "button",
+    "label": "🔎☰",
+    "clickDispatchAction": "tree-view:reveal-active-file",
+    "backgroundColor": "#444"
+  }
+]
